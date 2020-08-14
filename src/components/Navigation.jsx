@@ -8,7 +8,7 @@ const Navigation = (props) => {
           <form onSubmit={props.handleSubmit} action="">
             <div class="input-field">
               <input
-                placeholder="Search movie"
+                placeholder="Rechercher un film"
                 onChange={props.handleChange}
                 id="first_name2"
                 type="text"

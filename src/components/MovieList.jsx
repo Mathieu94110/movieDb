@@ -11,6 +11,7 @@ export default function MovieList(props) {
                 key={index}
                 image={movie.poster_path}
                 title={movie.title}
+                overview={movie.overview}
               />
             );
           })}

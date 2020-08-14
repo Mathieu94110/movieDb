@@ -6,7 +6,7 @@ export default function Header() {
       <nav>
         <div class="nav-wrapper">
           <a href="#" class="brand-logo center">
-            Find your film
+            Trouve ton film
           </a>
         </div>
       </nav>
