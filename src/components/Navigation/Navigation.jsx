@@ -1,8 +1,8 @@
 import React from "react";
-
+import styles from "./Navigation.module.css";
 const Navigation = (props) => {
   return (
-    <div className="container" style={{ paddingTop: 30, paddingBottom: 30 }}>
+    <div className={styles.container}>
       <div className="row">
         <section className="test col s4 offset-s4">
           <form onSubmit={props.handleSubmit} action="">

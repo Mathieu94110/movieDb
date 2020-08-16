@@ -1,6 +1,6 @@
 import React from "react";
-import Movie from "./Movie";
-export default function MovieList(props) {
+import Movie from "../Movie/Movie";
+const MovieList = (props) => {
   return (
     <div className="container">
       <div className="row">
@@ -11,7 +11,10 @@ export default function MovieList(props) {
                 key={index}
                 image={movie.poster_path}
                 title={movie.title}
+                viewMovieInfo={props.viewMovieInfo}
                 overview={movie.overview}
+                movieId={movie.id}
+                date={movie.release_date}
               />
             );
           })}
@@ -19,4 +22,5 @@ export default function MovieList(props) {
       </div>
     </div>
   );
-}
+};
+export default MovieList;
